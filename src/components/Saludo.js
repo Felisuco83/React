@@ -13,7 +13,7 @@ function Saludo(props) {
   const mostrarMensaje = () => {
     return <h1>Soy un mensaje HTML</h1>;
   };
-  var estiloFeo = { color: red, backgroundColor: green };
+  var estiloFeo = { color: "red", backgroundColor: "green" };
   const { nombre, edad, metodo } = props;
   return (
     <div>
